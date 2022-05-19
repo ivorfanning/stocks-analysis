@@ -17,6 +17,8 @@
   *From the above analysis, we can tell most of the green stocks are very fluctuate and the stock “DQ” is most fluctuated stock in the green stocks selection. therefore, the risk of investing in green stock is high, and it may suit for small percent of investor's portfolio. We did not know what happened in 2018 cause the return negative, in order to make the decision, we need more news and data for green stocks, especially for "DQ".*
 
   *As per the runtime message box, the run time of original code is around 0.9 seconds, and after refactoring the code, it reduced to 0.1 seconds.That is a big improvment because we used a more efficient method “Array” to store our values.* 
+ ![refactor code run time 2017](https://github.com/ivorfanning/stocks-analysis/blob/main/VBA_Challenge_2017.png)
+ ![refactor code run time 2018](https://github.com/ivorfanning/stocks-analysis/blob/main/VBA_Challenge_2018.png)
   
   ```
    Dim tickerIndex As Integer
