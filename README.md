@@ -16,11 +16,11 @@
   
   *From the above analysis, we can tell most of the green stocks are very fluctuate and the stock “DQ” is most fluctuated stock in the green stocks selection. therefore, the risk of investing in green stock is high, and it may suit for small percent of investor's portfolio. We did not know what happened in 2018 cause the return negative, in order to make the decision, we need more news and data for green stocks, especially for "DQ".*
 
-  *As per the runtime message box, the run time of original code is around 0.9 seconds, and after refactoring the code, it reduced to 0.8 seconds. Due to the size of this data, the difference is not significant, however when we deal with a larger dataset, we speculate that the execution time of refactored script should be more advantage and shorter than original script, because we used a more efficient method “Array” to store our values.* 
+  *As per the runtime message box, the run time of original code is around 0.9 seconds, and after refactoring the code, it reduced to 0.1 seconds.That is a big improvment because we used a more efficient method “Array” to store our values.* 
   
   ```
    Dim tickerIndex As Integer
-   
+       tickerIndext = 0
    Dim tickerVolumes(12) As Long
     
    Dim tickerStartingPrices(12) As Single
